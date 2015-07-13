@@ -675,8 +675,10 @@ Bazı acentelerimiz Cari programda birden fazla veritabanı kullanmaktadır. Far
 <tr><td>fYrlkDrm</td><td>Yürürlük Durumu</td></tr>
 <tr><td>fPolTek</td><td>Poliçe Sınıfı</td></tr>
 <tr><td>fPolTip</td><td>Poliçe Tipi</td></tr>
-<tr><td>fVerKimNo</td><td>Vergi Numarası</td></tr>
-<tr><td>fTCKimNo</td><td>TC Kimlik Numarası</td></tr>
+<tr><td>fTCKimNo</td><td>Sigortalı TC Kimlik Numarası</td></tr>
+<tr><td>fVerKimNo</td><td>Sigortalı Vergi Numarası</td></tr>
+<tr><td>fSETCKimNo</td><td>Sigorta Ettiren Kimlik Numarası</td></tr>
+<tr><td>fSEVergiNo</td><td>Sigorta Ettiren Vergi Numarası</td></tr>
 <tr><td>fFrkMizBlg</td><td>Müşterinin Bölgesi</td></tr>
 <tr><td>fBrtPrm</td><td>Bürüt Prim</td></tr>
 <tr><td>RizIl</td><td>Riziko İl</td></tr>
@@ -689,6 +691,10 @@ Bazı acentelerimiz Cari programda birden fazla veritabanı kullanmaktadır. Far
 <tr><th colspan='2'>Ek Alanlar</th></tr>
 <tr><td>feposta</td><td>Eposta Adresi</td></tr>
 <tr><td>ftelno</td><td>Telefon Numarası</td></tr>
+<tr><td>fevtelno</td><td>Telefon Numarası</td></tr>
+<tr><td>fceptelno</td><td>Telefon Numarası</td></tr>
+<tr><td>fevtelno2</td><td>Telefon Numarası</td></tr>
+<tr><td>fceptelno2</td><td>Telefon Numarası</td></tr>
 <tr><td>SirketAdi</td><td>Şirket Adı</td></tr>
 <tr><td>fsigdogtar</td><td>Sigortalı Doğum Tarihi</td></tr>
 <tr><td>fsigetdtar</td><td>Sigorta Ettiren Doğum Tarihi</td></tr>
