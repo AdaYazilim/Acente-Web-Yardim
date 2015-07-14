@@ -723,15 +723,15 @@ Bazı acentelerimiz Cari programda birden fazla veritabanı kullanmaktadır. Far
 
 <table>
 <tr><th colspan='2'>Bes Ek Alanları</th></tr>
-<tr><td>fTaksitTut</td><td>Taksit Tutarı</td></tr>
-<tr><td>fFonTutar</td><td>Fon Tutarı</td></tr>
-<tr><td>fEkKatPay</td><td>Aylık Katkı Payı</td></tr>
-<tr><td>fBasKatPay</td><td>Başlangıç Katkı Payı</td></tr>
-<tr><td>fDevAidat</td><td>Devreden Katkı Payı</td></tr>
-<tr><td>fYilPrm</td><td>Yıllık Prim</td></tr>
-<tr><td>fBesOdeSek</td><td>Ödeme Şekli</td></tr>
-<tr><td>fTakBnkSic</td><td>Takas Bank Sicil Numarası</td></tr>
-<tr><td>fSozFonTut</td><td>Fon Dağılımı</td></tr>
+<tr><td>BES.fTaksitTut</td><td>Taksit Tutarı</td></tr>
+<tr><td>BES.fFonTutar</td><td>Fon Tutarı</td></tr>
+<tr><td>BES.fEkKatPay</td><td>Aylık Katkı Payı</td></tr>
+<tr><td>BES.fBasKatPay</td><td>Başlangıç Katkı Payı</td></tr>
+<tr><td>BES.fDevAidat</td><td>Devreden Katkı Payı</td></tr>
+<tr><td>BES.fYilPrm</td><td>Yıllık Prim</td></tr>
+<tr><td>BES.fBesOdeSek</td><td>Ödeme Şekli</td></tr>
+<tr><td>BES.fTakBnkSic</td><td>Takas Bank Sicil Numarası</td></tr>
+<tr><td>BES.fSozFonTut</td><td>Fon Dağılımı</td></tr>
 </table>
 
 ##### Müşteri Alanları ve Karşılıkları
