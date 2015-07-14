@@ -670,7 +670,7 @@ Bazı acentelerimiz Cari programda birden fazla veritabanı kullanmaktadır. Far
 <tr><td>fFrkTa</td><td>Tali Müşteri Numarası</td></tr>
 <tr><td>fFrkSat</td><td>Satıcı Müşteri Numarası</td></tr>
 <tr><td>fFrkSor</td><td>Sorumlu Müşteri Numarası</td></tr>
-<tr><td>SigAdi</td><td>Şirket Adı</td></tr>
+<tr><td>SigAdi</td><td>Sigortalı Adı</td></tr>
 <tr><td>Plaka</td><td>Plaka</td></tr>
 <tr><td>fsonplaka</td><td>Diğer Plaka</td></tr>
 <tr><td>fTeklifDrm</td><td>Teklif Durumu</td></tr>
