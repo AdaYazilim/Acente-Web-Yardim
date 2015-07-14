@@ -659,11 +659,12 @@ Bazı acentelerimiz Cari programda birden fazla veritabanı kullanmaktadır. Far
 <tr><td>fTnzTar</td><td>Tanzim tarihi</td></tr>
 <tr><td>fBasTar</td><td>Başlangıç tarihi</td></tr>
 <tr><td>fBitTar</td><td>Bitiş tarihi</td></tr>
+<tr><td>fpolbittar</td><td>Vade Uzatma Zeyili ile Bittiği Tarih</td></tr>
 <tr><td>Brans</td><td>Adayazılımın verdiği Branş</td></tr>
 <tr><td>PolGrp</td><td>Adayazılımın verdiği Poliçe grubu</td></tr>
 <tr><td>fSirPolNo</td><td>Şirketin Verdiği Poliçe Numarası</td></tr>
-<tr><td>Tecdit</td><td>| Tecdit Numarası</td></tr>
-<tr><td>Zeyl</td><td>| Zeyil Numarası</td></tr>
+<tr><td>Tecdit</td><td>Tecdit Numarası</td></tr>
+<tr><td>Zeyl</td><td>Zeyil Numarası</td></tr>
 <tr><td>fFrkSir</td><td>Adayazılımın verdiği şirket Kodu</td></tr>
 <tr><td>fFrkMus</td><td>Müşteri Numrası</td></tr>
 <tr><td>fFrkTa</td><td>Tali Müşteri Numarası</td></tr>
@@ -671,6 +672,7 @@ Bazı acentelerimiz Cari programda birden fazla veritabanı kullanmaktadır. Far
 <tr><td>fFrkSor</td><td>Sorumlu Müşteri Numarası</td></tr>
 <tr><td>SigAdi</td><td>Şirket Adı</td></tr>
 <tr><td>Plaka</td><td>Plaka</td></tr>
+<tr><td>fsonplaka</td><td>Diğer Plaka</td></tr>
 <tr><td>fTeklifDrm</td><td>Teklif Durumu</td></tr>
 <tr><td>fYrlkDrm</td><td>Yürürlük Durumu</td></tr>
 <tr><td>fPolTek</td><td>Poliçe Sınıfı</td></tr>
