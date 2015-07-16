@@ -693,9 +693,10 @@ Bazı acentelerimiz Cari programda birden fazla veritabanı kullanmaktadır. Far
 <tr><th colspan='2'>Ek Alanlar</th></tr>
 <tr><td>feposta</td><td>Eposta Adresi</td></tr>
 <tr><td>ftelno</td><td>Telefon Numarası</td></tr>
+<tr><td>fistelno2</td><td>Telefon Numarası</td></tr>
 <tr><td>fevtelno</td><td>Telefon Numarası</td></tr>
-<tr><td>fceptelno</td><td>Telefon Numarası</td></tr>
 <tr><td>fevtelno2</td><td>Telefon Numarası</td></tr>
+<tr><td>fceptelno</td><td>Telefon Numarası</td></tr>
 <tr><td>fceptelno2</td><td>Telefon Numarası</td></tr>
 <tr><td>SirketAdi</td><td>Şirket Adı</td></tr>
 <tr><td>fsigdogtar</td><td>Sigortalı Doğum Tarihi</td></tr>
