@@ -645,7 +645,7 @@ _Parametreler:_ adayazılımın verdiği Şirket kodu ve adayazılımın verdiğ
 
 Aynı oturumda ".aaw" uzantısı ile çağıracağınız iki istek sırayla çalışmaktadır. Aynı anda yapacağınız istekleriniz için ".aaws" uzantısı ile istekte bulunabilirsiniz(".aaws" uzantısı session yazım izni olmadığından, bazı servislerde hata verebilir).
 
-##### Birden Fazla Cari Veritabanı Kulanma
+##### Birden Fazla Cari Veritabanı Kullanma
 
 Bazı acentelerimiz Cari programda birden fazla veritabanı kullanmaktadır. Farklı veritabanlarında işlem yapmak için, isteklerinize Headers olarak "VeritabaniNumarasi" değerini eklemeniz gerekmektedir. Alabileceği değerler acenteye göre değişikilk gösterdiğinden, bu bilgileri, acenteniz aracılığı ile adayazılım dan öğrenebilirsiniz. Gerekirse tanımlama işlemleride yapılarak size bilgi verilecektir.
 
