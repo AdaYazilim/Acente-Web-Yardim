@@ -649,6 +649,8 @@ Aynı oturumda ".aaw" uzantısı ile çağıracağınız iki istek sırayla çal
 
 Bazı acentelerimiz Cari programda birden fazla veritabanı kullanmaktadır. Farklı veritabanlarında işlem yapmak için, isteklerinize Headers olarak "VeritabaniNumarasi" değerini eklemeniz gerekmektedir. Alabileceği değerler acenteye göre değişikilk gösterdiğinden, bu bilgileri, acenteniz aracılığı ile adayazılım dan öğrenebilirsiniz. Gerekirse tanımlama işlemleride yapılarak size bilgi verilecektir.
 
+Veritabanındaki tablolar birbiri ile bağlantılı olup, ekleme ve güncelleme yaparken verilecek anahtar keyler ona göre ayarlanmalıdır. Örneğin;Eğer bir poliçe eklenmek isteniyorsa, poliçeye eklenecek; müşteri, poliçe, şirket, branş gibi veriler aynı veritabanındaki verilerden oluşmalıdır. Farklı veritabanında ki değerler yazılması durumunda eklenen poliçede veri sorunları olacaktır. Aynı sorunu diğer işlemler içinde örneklenebilir.
+
 ###12. Alanlar ve Açıklamaları
 
 ##### Poliçe Alanları ve Karşılıkları
