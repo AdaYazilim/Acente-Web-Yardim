@@ -282,65 +282,94 @@ Not: Poliçe aramada gelen sonuçlardaki alan adlarına göre farklılıklar var
     ]
     }
 
-###5. Poliçe Ekleme
+<h3>5. Poliçe Ekleme</h3>
 
 **Link:**" [http://localhost/ada/Police.PoliceEkle.aaw"
 
-**Parametreler:** poliçenin bilgilerini SoruCevap listesi olarak almaktadır. Sorular ve açıklamalarına "Poliçe Alanları ve Karşılıkları" alanından ulaşabilirsiniz. Örnekte gösterilen alanlar zorunlu alanlardır.
+**Parametreler:** Poliçenin bilgilerini SoruCevap listesi, Teminat listesi ve Sigortalı listesi olarak almaktadır. 
 
-##### Örnek İstek:
+*SoruCevap listesinin, Sorular ve açıklamalarına "Poliçe Alanları ve Karşılıkları" alanından ulaşabilirsiniz. Örnekte gösterilen alanlar zorunlu alanlardır. 
 
-    [
-    [
-        {
-            "Soru": "SigAdi",
-            "Cevap": "Deneme Müşterisi"
-        },
-        {
-            "Soru": "fSirPolNo",
-            "Cevap": "4587456"
-        },
-        {
-            "Soru": "fFrkMus",
-            "Cevap": "1"
-        },
-        {
-            "Soru": "fFrkSir",
-            "Cevap": "1"
-        },
-        {
-            "Soru": "fTnzTar",
-            "Cevap": "04.01.2007"
-        },
-        {
-            "Soru": "fTnzTar",
-            "Cevap": "04.01.2007"
-        },
-        {
-            "Soru": "fBasTar",
-            "Cevap": "04.01.2007"
-        },
-        {
-            "Soru": "fBitTar",
-            "Cevap": "04.01.2008"
-        },
-        {
-            "Soru": "Brans",
-            "Cevap": "608"
-        },
-        {
-            "Soru": "PolGrp",
-            "Cevap": "SAG"
-        },
-        {
-            "Soru": "fPolTek",
-            "Cevap": "3"
-        },
-        ....
-    ]
-    ]
+*Teminat listesinde TeminatAdi hariç zorunlu alanlardır. TeminatKodu, şirket ve branşa göre değişmekte olup, bu bilgiyi acentenizden öğrenebilirsiniz.  
 
-##### Örnek Cevap:
+*Sigortalılar listesinde tüm bilgiler zorunludur.
+
+<h5>Örnek İstek:</h5>
+<pre>
+[
+    {
+        Alanlar:[
+            {
+                "Soru": "SigAdi",
+                "Cevap": "Deneme Müşterisi"
+            },
+            {
+                "Soru": "fSirPolNo",
+                "Cevap": "4587456"
+            },
+            {
+                "Soru": "fFrkMus",
+                "Cevap": "1"
+            },
+            {
+                "Soru": "fFrkSir",
+                "Cevap": "1"
+            },
+            {
+                "Soru": "fTnzTar",
+                "Cevap": "04.01.2007"
+            },
+            {
+                "Soru": "fTnzTar",
+                "Cevap": "04.01.2007"
+            },
+            {
+                "Soru": "fBasTar",
+                "Cevap": "04.01.2007"
+            },
+            {
+                "Soru": "fBitTar",
+                "Cevap": "04.01.2008"
+            },
+            {
+                "Soru": "Brans",
+                "Cevap": "608"
+            },
+            {
+                "Soru": "PolGrp",
+                "Cevap": "SAG"
+            },
+            {
+                "Soru": "fPolTek",
+                "Cevap": "3"
+            },
+            ....
+        ],
+        Teminatlar:[
+        	{
+            TeminatKodu:'011',
+            TeminatAdi:'',
+            SigortaBedeli:90000,
+            Prim:200
+        	},
+        	....
+        ],
+        Sigortalilar:[
+        	{
+            	Ad:'Sigortalı Adı',
+            	Soyad:'Sigortalı Soyadı',
+            	Cinsiyet:'E',
+            	KimlikNo:'12345678925',
+                Yakinlik:1,
+                DogumTarihi:'1980-01-29'
+            },
+        	....
+        ]
+    }
+]
+</pre>
+
+<h5>Örnek Cevap:</h5>
 
     {
         "Prk": 239759,
