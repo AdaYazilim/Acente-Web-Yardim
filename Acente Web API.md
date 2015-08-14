@@ -282,17 +282,17 @@ Not: Poliçe aramada gelen sonuçlardaki alan adlarına göre farklılıklar var
     ]
     }
 
-<h3>5. Poliçe Ekleme</h3>
+<h3>5. Poliçe Ekleme / Güncelleme</h3>
 
-**Link:**" [http://localhost/ada/Police.PoliceEkle.aaw"
+**Link:**"http://localhost/ada/Police.PoliceEkle.aaw"
 
 **Parametreler:** Poliçenin bilgilerini SoruCevap listesi, Teminat listesi ve Sigortalı listesi olarak almaktadır. 
 
-*SoruCevap listesinin, Sorular ve açıklamalarına "Poliçe Alanları ve Karşılıkları" alanından ulaşabilirsiniz. Örnekte gösterilen alanlar zorunlu alanlardır. 
+*SoruCevap listesinin, Sorular ve açıklamalarına "Poliçe Alanları ve Karşılıkları" alanından ulaşabilirsiniz. "fPrkPol" bilgisi varsa o poliçe güncellenir yoksa yeni poliçe eklenir. Örnekte gösterilen alanlar Poliçe Eklemek işleminde zorunlu alanlardır. Güncelleme işlemi için Zorunlu alan yoktur.
 
-*Teminat listesinde TeminatAdi hariç zorunlu alanlardır. TeminatKodu, şirket ve branşa göre değişmekte olup, bu bilgiyi acentenizden öğrenebilirsiniz.  
+*Teminat listesinde TeminatAdi hariç zorunlu alanlardır. TeminatKodu, şirket ve branşa göre değişmekte olup, bu bilgiyi acentenizden öğrenebilirsiniz.  (Güncellemede mevcut teminat yapınızı bozmamak adına null göndermelisiniz. Ekleme veya çıkartma yapılacaksa poliçeye bağlı tüm teminatları göndermelisiniz.)
 
-*Sigortalılar listesinde tüm bilgiler zorunludur.
+*Sigortalılar listesinde tüm bilgiler zorunludur. (Güncellemede, mevcut sigortalılar yapınızı bozmamak adına null göndermelisiniz. Ekleme veya çıkartma yapılacaksa poliçeye bağlı tüm sigortalıları göndermelisiniz.)
 
 <h5>Örnek İstek:</h5>
 <pre>
