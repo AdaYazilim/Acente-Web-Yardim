@@ -15,7 +15,7 @@
 		Poliçe Bilgilerini Al
 	</li>
 	<li>
-		Poliçe Ekleme
+		Poliçe Ekleme/Güncelleme
 	</li>
 	<li>
 		Müşteri Arama
