@@ -72,11 +72,13 @@ _Yururlukte:_ Poliçenin yürürlükte durumunu belirtir. Alttaki değerleri ala
 | Yürürlükte | 1 |
 | Yürürlükte Değil | 2 |
 
+_SadeceSonHalAl:_ Bu alanı göndermediğiniz veya false gönderdiğinizde tüm poliçeler ve onlara bağlı zeyilleri ayrı birer poliçe olarak gelecektir. Eğer bu alanı true gönderirseniz; sonuçta dönecek poliçeler işlenerek en son zeyil kaydı, üzerindeki prim bilgileri geriye dönük düzenlenerek tek poliçe olarak döndürülecektir.
+
 Not: Poliçe aramada gelen sonuçlardaki alan adlarına göre farklılıklar vardır.
 
 ##### Örnek İstek:
 
-    {Sorgu:'78545625859', EkAlanlar:['feposta','ftelno','SirketAdi','fsigdogtar','fsigetdtar'],Yururlukte:1}
+    {Sorgu:'78545625859', EkAlanlar:['feposta','ftelno','SirketAdi','fsigdogtar','fsigetdtar'],Yururlukte:1,SadeceSonHalAl:false}
 
 ##### Örnek Cevap:
 
