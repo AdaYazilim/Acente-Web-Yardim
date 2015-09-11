@@ -809,7 +809,7 @@ Veritabanındaki tablolar birbiri ile bağlantılı olup, ekleme ve güncelleme 
 <tr><td>NAK.fTekEn</td><td>Tekne Eni</td></tr>
 <tr><td>NAK.fTknDerin</td><td>Tekne Derinliği</td></tr>
 <tr><td><a href='#nakftektip'>NAK.fTekTip</a></td><td>Tekne Tipi</td></tr>
-<tr><td><a href='#nakftknbayrak'>NAK.fTknBayrak</a></td><td>Tekne Bayrağı</td>></tr>
+<tr><td><a href='#nakftknbayrak'>NAK.fTknBayrak</a></td><td>Tekne Bayrağı</td></tr>
 <tr><td><a href='#nakftknhiztip'>NAK.fTknHizTip</a></td><td>Tekne Hizmet Tipi</td></tr>
 </table>
 
