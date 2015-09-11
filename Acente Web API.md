@@ -803,14 +803,14 @@ Veritabanındaki tablolar birbiri ile bağlantılı olup, ekleme ve güncelleme 
 <table>
 <tr><th colspan='2'>Nakliye Ek Alanları</th></tr>
 <tr><td>NAK.fGemAdi</td><td>Gemi Adı</td></tr>
-<tr><td>NAK.fGemKlas</td><td>Gemi Sınıfı</td></tr>
+<tr><td><a href='#nakfgemklas'>NAK.fGemKlas</a></td><td>Gemi Sınıfı</td></tr>
 <tr><td>NAK.fTknBedel</td><td>Tekne Bedel</td></tr>
 <tr><td>NAK.fTekBoy</td><td>Tekne Boyu</td></tr>
 <tr><td>NAK.fTekEn</td><td>Tekne Eni</td></tr>
 <tr><td>NAK.fTknDerin</td><td>Tekne Derinliği</td></tr>
-<tr><td>NAK.fTekTip</td><td>Tekne Tipi</td></tr>
-<tr><td>NAK.fTknBayrak</td><td>Tekne Bayrağı</td>></tr>
-<tr><td>NAK.fTknHizTip</td><td>Tekne Hizmet Tipi</td></tr>
+<tr><td><a href='#nakftektip'>NAK.fTekTip</a></td><td>Tekne Tipi</td></tr>
+<tr><td><a href='#nakftknbayrak'>NAK.fTknBayrak</a></td><td>Tekne Bayrağı</td>></tr>
+<tr><td><a href='#nakftknhiztip'>NAK.fTknHizTip</a></td><td>Tekne Hizmet Tipi</td></tr>
 </table>
 
 ##### Müşteri Alanları ve Karşılıkları
