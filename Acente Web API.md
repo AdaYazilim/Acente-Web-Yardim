@@ -670,6 +670,38 @@ _Parametreler:_ adayazılımın verdiği Şirket kodu ve adayazılımın verdiğ
         ...
     ]
 
+
+### Diğer Sabitler
+
+Bazı Sabit tablolarındaki verileri döndürür. ilgili tablolar; "DOMKLS", "DOMTKN", "DOMULK"
+
+_Link:_ "http://localhost/ada/CariSabitleri.DigerSabitler.aaw"
+
+_Parametreler:_  Tablo adı ve Parametreler Listesi (belirtilmedi ise boş liste gönderiniz) gönderilmesi gerekmektedir..
+
+#### Örnek İstek:
+<pre>
+    ['DOMKLS',[]]
+</pre>
+#### Örnek Cevap:
+<pre>
+   {
+    "Nesne": [
+        {
+            "fklskod": 1,
+            "fklsadi": "AMERICAN BUREAU"
+        },
+        {
+            "fklskod": 2,
+            "fklsadi": "GERMENISCHER LLOYD"
+        },
+        ...
+    ],
+    "Basarili": true,
+    "Mesaj": ""
+}
+</pre>
+
 ###11. Sistem Ek Özellikleri
 
 ##### Aynı Oturumda Birden Fazla İstekde Bulunma
@@ -766,6 +798,19 @@ Veritabanındaki tablolar birbiri ile bağlantılı olup, ekleme ve güncelleme 
 <tr><td>BES.fBesOdeSek</td><td>Ödeme Şekli</td></tr>
 <tr><td>BES.fTakBnkSic</td><td>Takas Bank Sicil Numarası</td></tr>
 <tr><td>BES.fSozFonTut</td><td>Fon Dağılımı</td></tr>
+</table>
+
+<table>
+<tr><th colspan='2'>Nakliye Ek Alanları</th></tr>
+<tr><td>NAK.fGemAdi</td><td>Gemi Adı</td></tr>
+<tr><td>NAK.fGemKlas</td><td>Gemi Sınıfı</td></tr>
+<tr><td>NAK.fTknBedel</td><td>Tekne Bedel</td></tr>
+<tr><td>NAK.fTekBoy</td><td>Tekne Boyu</td></tr>
+<tr><td>NAK.fTekEn</td><td>Tekne Eni</td></tr>
+<tr><td>NAK.fTknDerin</td><td>Tekne Derinliği</td></tr>
+<tr><td>NAK.fTekTip</td><td>Tekne Tipi</td></tr>
+<tr><td>NAK.fTknBayrak</td><td>Tekne Bayrağı</td>></tr>
+<tr><td>NAK.fTknHizTip</td><td>Tekne Hizmet Tipi</td></tr>
 </table>
 
 ##### Müşteri Alanları ve Karşılıkları
@@ -924,4 +969,29 @@ Bütün acentelerde kullanılmamakta, acenteniz kullanıyorsa acentenizden bilgi
 <tr><td>Altı Aylık</td><td>2</td></tr>
 <tr><td>Üç Aylık</td><td>3</td></tr>
 <tr><td>Aylık</td><td>4</td></tr>
+</table>
+
+##### NAK.fGemKlas
+<table>
+<tr><th>Gemi Sınıfı</th><th>Kod</th></tr>
+<tr><td colspan='2'>CariSabitleri.DigerSabitler.aaws servisinde "DOMKLS" tablosunun "fklskod" alanı</td></tr>
+</table>
+
+##### NAK.fTekTip
+<table>
+<tr><th>Tekne Tipi</th><th>Kod</th></tr>
+<tr><td colspan='2'>CariSabitleri.DigerSabitler.aaws servisinde "DOMTKN" tablosunun "ftknkod" alanı</td></tr>
+</table>
+
+##### NAK.fTknBayrak
+<table>
+<tr><th>Tekne Bayrağı</th><th>Kod</th></tr>
+<tr><td colspan='2'>CariSabitleri.DigerSabitler.aaws servisinde "DOMULK" tablosunun "fulkkod" alanı</td></tr>
+</table>
+
+##### NAK.fTknHizTip
+<table>
+<tr><th>Tekne Hizmet Tipi</th><th>Kod</th></tr>
+<tr><td>17 Mil Altı</td><td>1</td></tr>
+<tr><td>17 Mil Üstü</td><td>2</td></tr>
 </table>
