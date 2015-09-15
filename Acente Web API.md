@@ -781,7 +781,7 @@ Veritabanındaki tablolar birbiri ile bağlantılı olup, ekleme ve güncelleme 
 <tr><th colspan='2'>Dask Ek Alanları</th></tr>
 <tr><td>fTopKatSay</td><td>Toplam Kat Sayısı</td></tr>
 <tr><td>fBrtM2</td><td>Bürüt Metre Kare</td></tr>
-<tr><td>fInsYil</td><td>İnşaat Yılı</td></tr>
+<tr><td><a href='#finsyil'>fInsYil</a></td><td>İnşaat Yılı</td></tr>
 <tr><td>fuavtadres</td><td>UAVT adres Kodu</td></tr>
 <tr><td>fRizDaire</td><td>Riziko Adresi</td></tr>
 <tr><td>fDskPolNo</td><td>Dask Poliçe Numarası</td></tr>
@@ -961,6 +961,17 @@ Bütün acentelerde kullanılmamakta, acenteniz kullanıyorsa acentenizden bilgi
 | Bolge | 7 |
 | Grup | 8 |
 | Diger | 9 |
+
+##### fInsYil
+<table>
+<tr><th>İnşaat Yılı</th><th>Kod</th></tr>
+<tr><td>1975 ve Öncesi</td><td>1</td></tr>
+<tr><td>1976-1996</td><td>2</td></tr>
+<tr><td>1997-1999</td><td>3</td></tr>
+<tr><td>2000 ve Sonrası</td><td>4</td></tr>
+<tr><td>2007 ve Sonrası</td><td>5</td></tr>
+</table>
+
 
 ##### fBesOdeSek
 <table>
