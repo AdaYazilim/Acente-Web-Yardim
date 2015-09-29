@@ -156,7 +156,8 @@ Not: Poliçe aramada gelen sonuçlardaki alan adlarına göre farklılıklar var
             "Cinsiyet": "K",
             "KimlikNo": "22870344190",
             "Yakinlik": 1,
-            "DogumTarihi": "1957-07-30T00:00:00"
+            "DogumTarihi": "1957-07-30T00:00:00",
+            "Prim": 700
         },
         ...    
         ]
@@ -263,7 +264,8 @@ Not: Poliçe aramada gelen sonuçlardaki alan adlarına göre farklılıklar var
             "Cinsiyet": "K",
             "KimlikNo": "22720347190",
             "Yakinlik": 1,
-            "DogumTarihi": "1957-07-30T00:00:00"
+            "DogumTarihi": "1957-07-30T00:00:00",
+            "Prim": 700
         },
         {
             "Ad": "HİLMİ",
@@ -271,7 +273,8 @@ Not: Poliçe aramada gelen sonuçlardaki alan adlarına göre farklılıklar var
             "Cinsiyet": "E",
             "KimlikNo": "24443304756",
             "Yakinlik": 3,
-            "DogumTarihi": "1982-05-31T00:00:00"
+            "DogumTarihi": "1982-05-31T00:00:00",
+            "Prim": 700
         },
         {
             "Ad": "BUSE",
@@ -279,7 +282,8 @@ Not: Poliçe aramada gelen sonuçlardaki alan adlarına göre farklılıklar var
             "Cinsiyet": "K",
             "KimlikNo": "24731845762",
             "Yakinlik": 3,
-            "DogumTarihi": "1985-07-03T00:00:00"
+            "DogumTarihi": "1985-07-03T00:00:00",
+            "Prim": 700
         }
     ]
     }
@@ -363,7 +367,8 @@ Not: Poliçe aramada gelen sonuçlardaki alan adlarına göre farklılıklar var
             	Cinsiyet:'E',
             	KimlikNo:'12345678925',
                 Yakinlik:1,
-                DogumTarihi:'1980-01-29'
+                DogumTarihi:'1980-01-29',
+                Prim: 700
             },
         	....
         ]
