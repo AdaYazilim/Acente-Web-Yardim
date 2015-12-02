@@ -300,6 +300,8 @@ Not: Poliçe aramada gelen sonuçlardaki alan adlarına göre farklılıklar var
 
 *Sigortalılar listesinde tüm bilgiler zorunludur. (Güncellemede, mevcut sigortalılar yapınızı bozmamak adına null göndermelisiniz. Ekleme veya çıkartma yapılacaksa poliçeye bağlı tüm sigortalıları göndermelisiniz.)
 
+*BesOdemeleri listesinde tüm bilgiler zorunludur. (Güncellemede, mevcut BesOdemeleri yapınızı bozmamak adına null göndermelisiniz. Ekleme veya çıkartma yapılacaksa poliçeye bağlı tüm ödemeleri göndermelisiniz.)
+
 <h5>Örnek İstek:</h5>
 <pre>
 [
@@ -371,7 +373,19 @@ Not: Poliçe aramada gelen sonuçlardaki alan adlarına göre farklılıklar var
                 Prim: 700
             },
         	....
+        ],
+        "BesOdemeleri":[
+            {
+                "OdemeTarihi": "2012-11-29",
+                "OdemeTutari": 270,
+                "Odeyen": "",
+                "Aciklama": "Katkı payı",
+                "VadeTarihi": "1899-12-30",
+                "EvrakTipi": ""
+            },
+            ...
         ]
+        {
     }
 ]
 </pre>
