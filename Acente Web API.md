@@ -292,8 +292,7 @@ Not: Poliçe aramada gelen sonuçlardaki alan adlarına göre farklılıklar var
 
 **Link:**"http://localhost/ada/Police.PoliceEkle.aaw"
 
-**Parametreler:** Poliçenin bilgilerini SoruCevap listesi, Teminat listesi ve Sigortalı listesi olarak almaktadır. 
-
+**Parametreler:** Poliçenin bilgilerini SoruCevap listesi, Teminat listesi, Sigortalı listesi ve Bes ödeme listesi olarak almaktadır. 
 *SoruCevap listesinin, Sorular ve açıklamalarına "Poliçe Alanları ve Karşılıkları" alanından ulaşabilirsiniz. "fPrkPol" bilgisi varsa o poliçe güncellenir yoksa yeni poliçe eklenir. Örnekte gösterilen alanlar Poliçe Eklemek işleminde zorunlu alanlardır. Güncelleme işlemi için Zorunlu alan yoktur.
 
 *Teminat listesinde TeminatAdi hariç zorunlu alanlardır. TeminatKodu, şirket ve branşa göre değişmekte olup, bu bilgiyi acentenizden öğrenebilirsiniz.  (Güncellemede mevcut teminat yapınızı bozmamak adına null göndermelisiniz. Ekleme veya çıkartma yapılacaksa poliçeye bağlı tüm teminatları göndermelisiniz.)
@@ -398,7 +397,26 @@ Not: Poliçe aramada gelen sonuçlardaki alan adlarına göre farklılıklar var
         "Mesaj": null
     }
 
-###6. Müşteri Arama
+<h3>6. Poliçe Silme</h3>
+
+**Link:**"http://localhost/ada/Police.PoliceSil.aaw"
+
+**Parametreler:** Poliçenin fprkPol değerini göndermeniz gerekmektedir. 
+
+<h5>Örnek İstek:</h5>
+<pre>
+[109664]
+</pre>
+<h5>Örnek Cevap:</h5>
+<pre>
+{
+    "Basarili": true,
+    "Mesaj": "109664 Nolu Poliçe Silindi..."
+}
+</pre>
+   
+    
+###7. Müşteri Arama
 
 **Link:**"http://localhost/ada/Musteri.MusteriAra.aaw"
 
@@ -475,7 +493,7 @@ Not: Poliçe aramada gelen sonuçlardaki alan adlarına göre farklılıklar var
             }
     ]
 
-###7. Müşteri Bilgilerini Al
+###8. Müşteri Bilgilerini Al
 
 **Link:**"http://localhost/ada/Musteri.MusteriAl.aaw"
 
@@ -536,7 +554,7 @@ Not: Poliçe aramada gelen sonuçlardaki alan adlarına göre farklılıklar var
     "Mesaj": ""
     }
 
-###8. Müşteri Ekle
+###9. Müşteri Ekle
 
 **Link:**"http://localhost/ada/Musteri.MusteriEkle.aaw"
 
@@ -566,7 +584,7 @@ Not: İnternet Müşterisi olarak işaretlenmek istenen müşterilerde "fIntntMu
     "Mesaj": null
     }
 
-###9. Müşteri Güncelle
+###10. Müşteri Güncelle
 
 **Link:**"http://localhost/ada/Musteri.MusteriGuncelle.aaw"
 
@@ -588,7 +606,7 @@ Not: İnternet Müşterisi olarak işaretlenmek istenen müşterilerde "fIntntMu
         "Mesaj": null
     }
 
-###10. Ek Servisler
+###11. Ek Servisler
 
 Sistemdeki bazı sabitlerin değerlerinin alınabilmesi için hazırlanmış bazı fonksiyonlar ve tablolar vardır.
 
@@ -721,7 +739,7 @@ _Parametreler:_  Tablo adı ve Parametreler Listesi (belirtilmedi ise boş liste
 }
 </pre>
 
-###11. Sistem Ek Özellikleri
+###12. Sistem Ek Özellikleri
 
 ##### Aynı Oturumda Birden Fazla İstekde Bulunma
 
@@ -733,7 +751,7 @@ Bazı acentelerimiz Cari programda birden fazla veritabanı kullanmaktadır. Far
 
 Veritabanındaki tablolar birbiri ile bağlantılı olup, ekleme ve güncelleme yaparken verilecek anahtar keyler ona göre ayarlanmalıdır. Örneğin;Eğer bir poliçe eklenmek isteniyorsa, poliçeye eklenecek; müşteri, poliçe, şirket, branş gibi veriler aynı veritabanındaki verilerden oluşmalıdır. Farklı veritabanında ki değerler yazılması durumunda eklenen poliçede veri sorunları olacaktır. Aynı sorunu diğer işlemler içinde örneklenebilir.
 
-###12. Alanlar ve Açıklamaları
+###13. Alanlar ve Açıklamaları
 
 ##### Poliçe Alanları ve Karşılıkları
 
