@@ -163,7 +163,136 @@ Not: Poliçe aramada gelen sonuçlardaki alan adlarına göre farklılıklar var
         ]
     }
     ]
+###3.1. KimlikNumarasi Ile Iliskili Tüm Poliçeleri Dön
+**Link:**"http://localhost/ada/Police.KimlikNumarasiIleIliskiliTumPoliceleriDon.aaws"
 
+Bu servis tüm sistemlerde çalışmamaktadır. Ek kurulumların yapılması gerekebilir.
+
+**Parametreler:**
+
+_KimlikNo_: Kimlik Numarası
+
+_EkAlanlar:_ Standart alanlara ek olarak istenen diğer alanlar liste olarak alınır. Poliçe alanları başlığından eklemeler yapabilirsiniz. Eksik alanlar için iletişime geçebilirsiniz.
+
+_Yururlukte:_ Poliçenin yürürlükte durumunu belirtir. Alttaki değerleri alabilir. Acente Cari porogramından toplu olarak güncellenmekte olduğu unutulmamalıdır.
+
+|  Yürürlük Durumu | Kod |
+| --- | --- |
+| Hepsi (varsayılan) | 0 |
+| Yürürlükte | 1 |
+| Yürürlükte Değil | 2 |
+
+_SadeceSonHalAl:_ Bu alanı göndermediğiniz veya false gönderdiğinizde tüm poliçeler ve onlara bağlı zeyilleri ayrı birer poliçe olarak gelecektir. Eğer bu alanı true gönderirseniz; sonuçta dönecek poliçeler işlenerek en son zeyil kaydı, üzerindeki prim bilgileri geriye dönük düzenlenerek tek poliçe olarak döndürülecektir.
+
+Not: Poliçe aramada gelen sonuçlardaki alan adlarına göre farklılıklar vardır.
+
+##### Örnek İstek:
+
+    {KimlikNo:'0119999042', EkAlanlar:[],Yururlukte:0,SadeceSonHalAl:false}
+
+##### Örnek Cevap:
+
+    [
+    {
+        "Alanlar": [        
+            {
+                "Soru": "sigortali",
+                "Cevap": "Test Test"
+            },
+            ...
+            {
+                "Soru": "sonDegistirmeTarihi",
+                "Cevap": "11.10.2006 00:00:00"
+            },
+            {
+                "Soru": "taliAdi",
+                "Cevap": "Test"
+            },
+            ...
+            {
+                "Soru": "tcKimlikNo",
+                "Cevap": ""
+            },
+            {
+                "Soru": "teklifDurumu",
+                "Cevap": "0"
+            },
+            {
+                "Soru": "teklifDurumuAdi",
+                "Cevap": "0"
+            },
+            {
+                "Soru": "teklifTarihi",
+                "Cevap": "30.12.1899 00:00:00"
+            },
+            {
+                "Soru": "thgf",
+                "Cevap": "0"
+            },
+            ...
+        ],
+        "OdemePlani": {
+            "Taksitler": [
+                {
+                    "FPrkOpl": 48713,
+                    "fFrkPol": 0,
+                    "MusteriTarihi": "2006-04-18T00:00:00",
+                    "MusteriOdemeTutari": {},
+                    "MusteriIptalTutari": {},
+                    "AcenteTarihi": "2006-04-18T00:00:00",
+                    "AcenteTutar": {},
+                    "Kapamalar": [
+                        {
+                            "TahsilatList": [
+                                {
+                                    "SimdiyeKadarKapananTutar": {},
+                                    "TahsilatTutari": {},
+                                    "KapamaIcinKullanilabilecekTutar": {},
+                                    "Alanlar": {
+                                        ...
+                                        "fDovTah": {
+                                            "$type": "AdaGenel.Cesitli.NesneAlan, AdaGenel",
+                                            "SaltOkunur": false,
+                                            "Soru": "fDovTah",
+                                            "Cevap": "False"
+                                        },
+                                        "fFisTip": {
+                                            "$type": "AdaGenel.Cesitli.NesneAlan, AdaGenel",
+                                            "SaltOkunur": false,
+                                            "Soru": "fFisTip",
+                                            "Cevap": "1"
+                                        },
+                                        ...
+                                    }
+                                }
+                            ],
+                            "KapananTutar": 0
+                        }
+                    ],
+                    "PoliceNo": null,
+                    "TecditNo": null,
+                    "ZeyilNo": null,
+                    "Sirket": null,
+                    "TaksitKodu": null,
+                    "Sigortali": null,
+                    "Plaka": null,
+                    "MusteriOdemesiGerekenTutar": {},
+                    "ToplamKapananTutar": {},
+                    "IlgiliTahsilatIleKapananTutar": {},
+                    "KalanBorcu": {},
+                    "Isaretli": false,
+                    "IlkGiristeIsaretli": false,
+                    "IlkGiristeKapaliTutar": {}
+                }
+            ]
+        },
+        "Hasarlar": null,
+        "Teminatlar": [],
+        "Sigortalilar": [],
+        "BesOdemeleri": null
+    }
+    ]
+    
 ###4. Poliçe Bilgilerini Al
 
 **Link:**"http://localhost/ada/Police.PoliceBilgileriniAl.aaw"
