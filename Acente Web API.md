@@ -16,6 +16,8 @@ Sistemimiz, linklere gerekli parametrelerin json yapısında gönderilmesi üzer
 
 {"Basarili":true,"Mesaj":""}
 
+###### Alternatif olarak her istek requestinize "KullaniciAdi","Sifre" headerlarını da eklerseniz. Sistem, login değilseniz sizi login yaparak işleminizi devam ettirir.
+
 ###2. Poliçe Arama
 
 **Link:**"http://localhost/ada/Police.PoliceAra.aaw"
