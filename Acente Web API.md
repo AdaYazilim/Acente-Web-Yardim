@@ -916,12 +916,10 @@ Veritabanındaki tablolar birbiri ile bağlantılı olup, ekleme ve güncelleme 
 <tr><td>fSEVergiNo</td><td>Sigorta Ettiren Vergi Numarası</td></tr>
 <tr><td>fFrkMizBlg</td><td>Müşterinin Bölgesi</td></tr>
 <tr><td>fBrtPrm</td><td>Bürüt Prim</td></tr>
-    
-    <tr><td>pNet_Prim</td><td>Net Prim</td></tr>
-    <tr><td>fHsKom</td><td>Komisyon</td></tr>
-    <tr><td><a href='#fpolmttip'>fpolmttip</a></td><td>Ödeme Tipi</td></tr>
-    <tr><td>fpolmtade</td><td>Taksit Sayısı</td></tr>
-    
+<tr><td>pNet_Prim</td><td>Net Prim</td></tr>
+<tr><td>fHsKom</td><td>Komisyon</td></tr>
+<tr><td><a href='#fpolmttip'>fpolmttip</a></td><td>Ödeme Tipi</td></tr>
+<tr><td>fpolmtade</td><td>Taksit Sayısı</td></tr>    
 <tr><td>RizIl</td><td>Riziko İl</td></tr>
 <tr><td>RizIlce</td><td>Riziko İlçe</td></tr>
 <tr><td>fPolAltGrp</td><td>Alt Brans Grubu (örn; KNT)</td></tr>
