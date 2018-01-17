@@ -916,6 +916,12 @@ Veritabanındaki tablolar birbiri ile bağlantılı olup, ekleme ve güncelleme 
 <tr><td>fSEVergiNo</td><td>Sigorta Ettiren Vergi Numarası</td></tr>
 <tr><td>fFrkMizBlg</td><td>Müşterinin Bölgesi</td></tr>
 <tr><td>fBrtPrm</td><td>Bürüt Prim</td></tr>
+    
+    <tr><td>pNet_Prim</td><td>Net Prim</td></tr>
+    <tr><td>fHsKom</td><td>Komisyon</td></tr>
+    <tr><td><a href='#fpolmttip'>fpolmttip</a></td><td>Ödeme Tipi</td></tr>
+    <tr><td>fpolmtade</td><td>Taksit Sayısı</td></tr>
+    
 <tr><td>RizIl</td><td>Riziko İl</td></tr>
 <tr><td>RizIlce</td><td>Riziko İlçe</td></tr>
 <tr><td>fPolAltGrp</td><td>Alt Brans Grubu (örn; KNT)</td></tr>
@@ -1173,4 +1179,13 @@ Bütün acentelerde kullanılmamakta, acenteniz kullanıyorsa acentenizden bilgi
 <tr><th>Tekne Hizmet Tipi</th><th>Kod</th></tr>
 <tr><td>17 Mil Altı</td><td>1</td></tr>
 <tr><td>17 Mil Üstü</td><td>2</td></tr>
+</table>
+
+
+##### fpolmttip
+<table>
+<tr><th>Ödeme Tipi</th><th>Kod</th></tr>
+<tr><td>Standart</td><td>1</td></tr>
+<tr><td>Peşin</td><td>2</td></tr>
+<tr><td>Taksit</td><td>3</td></tr>
 </table>
